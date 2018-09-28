@@ -8,15 +8,15 @@ class Cards extends Component {
                 <div className={'row'}>
                     <div className={'col-1'}>
                     </div>
-                    <div className={'col-3'}>
+                    <div className={'col-3 cards'}>
                     </div>
                     <div className={'col-1'}>
                     </div>
-                    <div className={'col-3'}>
+                    <div className={'col-3 cards'}>
                     </div>
                     <div className={'col-1'}>
                     </div>
-                    <div className={'col-3'}>
+                    <div className={'col-3 cards'}>
                     </div>
                     <div className={'col-1'}>
                     </div>

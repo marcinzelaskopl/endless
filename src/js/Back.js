@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import Cards from "./Cards";
 
 class Back extends Component {
     render(){
@@ -9,6 +10,7 @@ class Back extends Component {
                     <div className={'col-13'}>
                     </div>
                 </div>
+                <Cards/>
             </div>
         )
     }
