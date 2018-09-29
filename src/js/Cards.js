@@ -8,15 +8,18 @@ class Cards extends Component {
                 <div className={'row'}>
                     <div className={'col-1'}>
                     </div>
-                    <div className={'col-3 cards'}>
+                    <div className={'col-3 cards unfallen'}>
+                        <h1>The Unfallen</h1>
                     </div>
                     <div className={'col-1'}>
                     </div>
-                    <div className={'col-3 cards'}>
+                    <div className={'col-3 cards riftborn'}>
+                        <h1>The Riftborn</h1>
                     </div>
                     <div className={'col-1'}>
                     </div>
-                    <div className={'col-3 cards'}>
+                    <div className={'col-3 cards vodyani'}>
+                        <h1>The Vodyani</h1>
                     </div>
                     <div className={'col-1'}>
                     </div>
