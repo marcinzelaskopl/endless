@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
 
 @keyframes floating {
   from {
@@ -95,7 +96,8 @@
     filter: grayscale(0%);
     cursor: pointer; }
   .cards h1 {
-    font-size: 40px; }
+    font-size: 40px;
+    color: white; }
 
 .unfallen {
   background-image: url("./img/unfallen.png");
