@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Back from "./js/Back";
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+} from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-        <div>
-            <Back/>
-        </div>
+        <HashRouter>
+            <div>
+                <Back/>
+                <Switch>
+                </Switch>
+            </div>
+        </HashRouter>
     );
   }
 }

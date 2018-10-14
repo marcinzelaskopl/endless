@@ -135,4 +135,12 @@
   background-repeat: no-repeat;
   background-position: center; }
 
+.footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 50px;
+  font-weight: bold; }
+
 /*# sourceMappingURL=App.css.map */

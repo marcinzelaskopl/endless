@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import Footer from "./Footer";
 
 class Cards extends Component {
     constructor(props){
@@ -70,6 +71,7 @@ class Cards extends Component {
                     <div className={'col-1'}>
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

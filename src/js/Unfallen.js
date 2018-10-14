@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-class Footer extends Component {
+class Unfallen extends Component {
     render(){
         return (
-            <div className={'grid-container footer'}>
+            <div className={'grid-container unfallen-main'}>
                 <div className={'row'}>
                     <div className={'col-13'}>
-                        <p>ALL RIGHTS RESERVED FOR AMPLITUDE STUDIOS. WEBSITE IS PURELY MADE FOR FAN PURPOSES.</p>
                     </div>
                 </div>
             </div>
@@ -15,4 +14,4 @@ class Footer extends Component {
     }
 }
 
-export default Footer
+export default Unfallen
