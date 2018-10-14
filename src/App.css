@@ -143,4 +143,46 @@
   margin-top: 50px;
   font-weight: bold; }
 
+.unfallen-main {
+  text-align: center;
+  font-size: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./img/unfall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .unfallen-main h1 {
+    margin: 5vh;
+    color: white;
+    animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    text-shadow: -4px 0px 10px #0f0f0f; }
+  .unfallen-main h4 {
+    font-size: 30px;
+    margin-top: 5vh;
+    font-style: italic;
+    color: white;
+    text-shadow: -4px 0px 1px #0f0f0f; }
+
+.btn-more {
+  border: 3px solid white;
+  margin-top: 10vh;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  transition: 0.5s; }
+  .btn-more:hover {
+    cursor: pointer;
+    border: 3px solid black;
+    color: black; }
+
+.unf-showcase {
+  height: 100vh; }
+
 /*# sourceMappingURL=App.css.map */
